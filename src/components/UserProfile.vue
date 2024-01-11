@@ -19,7 +19,7 @@ export default {
       user: null,
     };
   },
-  mounted() {
+  created() {
     this.fetchUserDataById(this.$route.params.id);
   },
   methods: {
